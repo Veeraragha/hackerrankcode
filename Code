@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+
+{
+
+float km,m,inches,feet,cm;
+
+scanf("%f",&km);
+
+m = 1000*km;
+
+inches = 39370.1*km;
+
+feet = 3280.84*km;
+
+cm = 100000*km;
+
+printf("%.2f m",m);
+
+printf("\n%.2f ft",feet);
+
+printf("\n%.2f in",inches);
+
+printf("\n%.2f cm",cm);
+
+    return 0;
+
+}
